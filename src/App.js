@@ -20,9 +20,9 @@ function App() {
   return (
     <div className="App">
       <h1>Counter {count}</h1>
-      <a onClick={increment}>+</a>
-      <a onClick={decrement}>-</a>
-      <a onClick={refresh}>Reset</a>
+      <p onClick={increment}>+</p>
+      <p onClick={decrement}>-</p>
+      <p onClick={refresh}>Reset</p>
 
     </div>
   );
